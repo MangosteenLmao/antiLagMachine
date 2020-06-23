@@ -1,0 +1,9 @@
+name: 2b2tAntiLagMachine
+author: MangosteenLmao
+version: 1.0-SNAPSHOT
+main: me.MangosteenLmao.AntiLagMachine.AntiLagMachine
+description: automatically remove lag machines every 30 minutes
+commands:
+   lagcheck:
+      description: type /lagcheck to perform a check on everyone 
+      usage: /lagcheck
