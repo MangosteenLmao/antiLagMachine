@@ -4,7 +4,7 @@ automatically detects and removes lag machines every 30 minutes with the /lagche
 limit of blocks before they are all wiped is 1000, adjustable.
 
 feel free to add more blocks to check for in the super long if statement with format:
-m == Material.<Enter your material here>
+m == Material.yourmaterialhere
   
 feel free to use, modify, adjust, whatever you want!
 
