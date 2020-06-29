@@ -8,4 +8,9 @@ m == Material.yourmaterialhere
   
 feel free to use, modify, adjust, whatever you want!
 
+v2.0:
+added config.yml
+has a limit and list of materials in it to change (if you want)
+tidied up a loop
+
 -Mango
