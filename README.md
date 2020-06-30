@@ -10,7 +10,9 @@ feel free to use, modify, adjust, whatever you want!
 
 v2.0 branch:
 added config.yml
-has a limit and list of materials in it to change (if you want)
-tidied up a loop
+has a limit and list of materials in it to change (if you want), tidied up a loop
+
+v2.1 branch:
+added time delay to config.yml (in minutes) of how often to run a lagcheck
 
 -Mango
