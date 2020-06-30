@@ -36,6 +36,7 @@ public class AntiLagMachine extends JavaPlugin implements Listener, CommandExecu
 		this.getCommand("lagcheck").setExecutor((CommandExecutor) this); // registers command
 		this.getConfig().getInt("limit");
 		this.getConfig().getList("materials");
+		long delay = 1200 * this.getConfig().getInt("delay");
 		
 		//the following lines run the command every 30 minutes
 		this.getServer().getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
@@ -45,7 +46,7 @@ public class AntiLagMachine extends JavaPlugin implements Listener, CommandExecu
 				Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "lagcheck");
 			}
 			//first run is 5 minutes after restart, then after is every 30 minutes
-		}, 6000L, 36000L);
+		}, 6000L, delay);
 	}
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 		if (label.equalsIgnoreCase("lagcheck")) {
