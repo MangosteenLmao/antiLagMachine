@@ -1,5 +1,6 @@
-limit: 1000
-materials: 
+limit: 1000 #limit of blocks
+delay: 30 #in minutes, how often to run a lagcheck
+materials:  #materials counted as part of a lag machine
    - REDSTONE_WIRE
    - PISTON_BASE
    - PISTON_EXTENSION
